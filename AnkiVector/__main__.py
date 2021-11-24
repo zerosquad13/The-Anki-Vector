@@ -64,24 +64,24 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+*Hᴇʏ ᴛʜᴇʀᴇ! Mʏ ɴᴀᴍᴇ ɪs [sɪɴɴᴇʀ](https://telegra.ph/file/c226623ff79fa51e5d587.jpg)
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
-hit /help to Find my list of available commands 🕹*
+I'ᴍ ᴀ Pᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ Wɪᴛʜ Cᴏᴏʟ Mᴏᴅᴜʟᴇs. Mᴀᴅᴇ Bʏ @lifeinsinn
+ʜɪᴛ /ʜᴇʟᴘ ᴛᴏ Fɪɴᴅ ᴍʏ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs  🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="🜏 ᴄʜᴀɴɴᴇʟ 🜏", url="https://t.me/xproject13"),
+        InlineKeyboardButton(text="🜏 ɢʀᴏᴜᴘ 🜏", url="https://t.me/xxxsquad18plus"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🜏 ᴏᴡɴᴇʀ 🜏", url="https://t.me/lifeinsinn"),
+        InlineKeyboardButton(text="🜏 ʜᴇʟᴘ 🜏", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ ᴀᴅᴅ sɪɴɴᴇʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
