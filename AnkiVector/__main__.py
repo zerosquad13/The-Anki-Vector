@@ -63,12 +63,12 @@ from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
 from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
-PM_START_TEXT = f"
+PM_START_TEXT = f"""
 Hᴇʏ ᴛʜᴇʀᴇ! Mʏ ɴᴀᴍᴇ ɪs [sɪɴɴᴇʀ](https://telegra.ph/file/c226623ff79fa51e5d587.jpg).
 
 I'ᴍ ᴀ Pᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ Wɪᴛʜ Cᴏᴏʟ Mᴏᴅᴜʟᴇs. Mᴀᴅᴇ Mʏ @lifeinsinn
 ʜɪᴛ /ʜᴇʟᴘ ᴛᴏ Fɪɴᴅ ᴍʏ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs  🕹
-"
+"""
 
 buttons = [
     [
