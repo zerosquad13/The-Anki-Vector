@@ -64,30 +64,30 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+*Hᴇʏ ᴛʜᴇʀᴇ! Mʏ ɴᴀᴍᴇ ɪs [sɪɴɴᴇʀ](https://telegra.ph/file/c226623ff79fa51e5d587.jpg)
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
-hit /help to Find my list of available commands 🕹*
+I'ᴍ ᴀ Pᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ Wɪᴛʜ Cᴏᴏʟ Mᴏᴅᴜʟᴇs. Mᴀᴅᴇ Mʏ @lifeinsinn
+ʜɪᴛ /ʜᴇʟᴘ ᴛᴏ Fɪɴᴅ ᴍʏ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs  🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="🜏 ᴄʜᴀɴɴᴇʟ 🜏", url="https://t.me/xproject13"),
+        InlineKeyboardButton(text="🜏 ɢʀᴏᴜᴘ 🜏", url="https://t.me/xxxsquad18plus"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🜏 ᴏᴡɴᴇʀ 🜏", url="https://t.me/lifeinsinn"),
+        InlineKeyboardButton(text="🜏 ʜᴇʟᴘ 🜏", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ ᴀᴅᴅ sɪɴɴᴇʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
+ANKIVECTOR_STICKER = "CAADAQAD_gIAAj826ETqiQgdMv0kCwI"
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
@@ -202,7 +202,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
@@ -304,7 +304,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -374,8 +374,8 @@ def AnkiVector_about_callback(update, context):
                             text="Terms and Conditions", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back")],
+                    [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -416,7 +416,7 @@ def AnkiVector_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="aboutmanu_tac")]]
             ),
         )
 
@@ -431,7 +431,7 @@ def AnkiVector_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -460,7 +460,7 @@ def AnkiVector_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -483,7 +483,7 @@ def AnkiVector_about_callback(update, context):
                         InlineKeyboardButton(
                             text="Credits", callback_data="aboutmanu_credit"
                         ),
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
@@ -549,7 +549,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -621,7 +621,7 @@ def settings_button(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="ʙᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
